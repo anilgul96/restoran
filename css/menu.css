@@ -11,12 +11,14 @@
 }
 
 body {
+  height: 100vh;
   margin: 0 auto;
   padding: 10px;
   font-family: Roboto;
   font-weight: 600;
   background-color: #f1efea;
   position: relative;
+  overflow: hidden;
 }
 
 .section-coffee,

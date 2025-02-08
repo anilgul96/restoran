@@ -9,6 +9,7 @@
 body {
   background-color: #ffeea9;
   font-family: Inter;
+  height: 100vh;
 }
 
 .box {

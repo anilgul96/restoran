@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffeea9;
+  font-family: Inter;
+}
+
+.box {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 0.5fr;
+  row-gap: 40px;
+  justify-content: center;
+  align-content: center;
+}
+
+.kutu {
+  text-transform: uppercase;
+  font-size: 80px;
+  background-color: #dda853;
+  color: white;
+  grid-column: 1/-1;
+  padding: 30px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fbf5dd;
+}
+
+@media only screen and (max-width: 600px) {
+  .kutu {
+    text-transform: uppercase;
+    font-size: 48px;
+    /* font-weight: bold; */
+    background-color: #dda853;
+    color: white;
+    grid-column: 1/-1;
+    padding: 30px;
+    letter-spacing: 2px;
+  }
+
+  hr {
+    height: 5px;
+    border: none;
+    background-color: #fbf5dd;
+  }
+}

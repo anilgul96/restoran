@@ -26,7 +26,7 @@ body {
 .section-coffee,
 .section-tea,
 .section.soft {
-  margin: 30px 0;
+  margin: 24px 0;
 }
 
 .type {
@@ -57,7 +57,7 @@ body {
 header {
   font-family: "Poppins", serif;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 18px;
   text-align: left;
   margin: 12px 0;
 }

@@ -53,7 +53,7 @@ body {
 }
 
 header {
-  font-family: "Amsterdam";
+  font-family: "Amsterdam", sans-serif;
   text-transform: uppercase;
   font-size: 10px;
   text-align: left;

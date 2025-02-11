@@ -80,6 +80,7 @@ img {
   width: 200px;
   position: absolute;
   opacity: 0.3;
+  z-index: -999;
 }
 
 .pizza-img {

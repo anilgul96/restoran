@@ -22,3 +22,125 @@ body {
   position: relative;
   /* overflow: hidden; */
 }
+
+header {
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: left;
+  margin: 12px 0;
+}
+
+/*********************************************************************
+************************** MEAL-BOX **********************************
+*********************************************************************/
+
+.meal-box,
+.meal-specs {
+  margin: 20px 0;
+}
+
+.meal-category {
+  font-family: "League Spartan", serif;
+  font-size: 18px;
+  padding: 8px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+.meal-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.meal-specs {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr;
+}
+
+.meal-price {
+  justify-self: left;
+  align-self: center;
+}
+
+.price-symbol {
+  justify-self: left;
+  align-self: center;
+}
+
+/*********************************************************************
+*********************************************************************/
+
+/*********************************************************************
+************************** IMAGES **********************************
+*********************************************************************/
+
+img {
+  width: 200px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.pizza-img {
+  transform: rotate(95deg);
+  top: 430px;
+  right: 90px;
+}
+
+.soup-img {
+  transform: rotate(30deg);
+  top: 40px;
+  right: 30px;
+}
+
+.pasta-img {
+  top: 200px;
+  transform: rotate(-30deg);
+}
+
+.grill-img {
+  top: 600px;
+  transform: rotate(-25deg);
+}
+
+.wrap-img {
+  top: 850px;
+  right: 0px;
+  transform: rotate(-45deg);
+}
+
+.burger-img {
+  top: 1070px;
+  transform: rotate(25deg);
+  left: 30px;
+}
+
+.toast-img {
+  top: 1300px;
+  right: 20px;
+  transform: rotate(-45deg);
+}
+
+.french-img {
+  top: -100px;
+  left: -10px;
+  transform: rotate(45deg);
+}
+
+.salad-img {
+  width: 250px;
+  bottom: 100px;
+}
+/*********************************************************************
+*********************************************************************/
+
+ul {
+  margin: 32px 0px 12px;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
